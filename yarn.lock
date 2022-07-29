@@ -691,9 +691,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.3.102":
-  version: 0.3.102
-  resolution: "@goldstack/template-static-website-aws@npm:0.3.102"
+"@goldstack/template-static-website-aws@npm:0.3.103":
+  version: 0.3.103
+  resolution: "@goldstack/template-static-website-aws@npm:0.3.103"
   dependencies:
     "@goldstack/infra": 0.3.38
     "@goldstack/infra-aws": 0.3.47
@@ -713,7 +713,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: 0825a12e27a9d6fdfe2e0ca3eb818fa66f0e15c57b44aef4fec11cb3630e669d6b9da3c7f9fcfc8cde51e9e2d871958d61b377a8d97ff834568f47a539cc111b
+  checksum: bfb96419b3c1013434d5781f3c1ff4ca065eb7339ade433557c5ba0df5ddec84975695533cdbbd79b0efd166cad86075a43dbc65e2f4255092bfa00b67d65ffd
   languageName: node
   linkType: hard
 
@@ -10296,7 +10296,7 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "static-website-1@workspace:packages/static-website-1"
   dependencies:
-    "@goldstack/template-static-website-aws": 0.3.102
+    "@goldstack/template-static-website-aws": 0.3.103
     "@types/gulp": ^4.0.7
     "@types/gulp-changed": ^0.0.33
     "@types/gulp-replace": ^0.0.31
@@ -10312,7 +10312,7 @@ resolve@^1.20.0:
     reload: ^3.2.0
     rimraf: ^3.0.2
     ts-jest: ^28.0.2
-    ts-node: ^10.8.0
+    ts-node: ^10.9.1
     typescript: ^4.7.4
   languageName: unknown
   linkType: soft
@@ -11004,9 +11004,9 @@ resolve@^1.20.0:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.8.0":
-  version: 10.8.0
-  resolution: "ts-node@npm:10.8.0"
+"ts-node@npm:^10.9.1":
+  version: 10.9.1
+  resolution: "ts-node@npm:10.9.1"
   dependencies:
     "@cspotcode/source-map-support": ^0.8.0
     "@tsconfig/node10": ^1.0.7
@@ -11038,7 +11038,7 @@ resolve@^1.20.0:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 1c22dc8dd80d0ba4dd4250b82cc032b63f6fbe8c87f8197cef43e7f9e2d43f5b333b445ed712e3006e24119257b4bff2c46605f7da61ab6f5e9514885d296f0c
+  checksum: 090adff1302ab20bd3486e6b4799e90f97726ed39e02b39e566f8ab674fd5bd5f727f43615debbfc580d33c6d9d1c6b1b3ce7d8e3cca3e20530a145ffa232c35
   languageName: node
   linkType: hard
 
