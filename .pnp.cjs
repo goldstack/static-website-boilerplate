@@ -1106,10 +1106,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/template-static-website-aws", [\
-        ["npm:0.5.7", {\
-          "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.7-a3cab7472f-f711fdd434.zip/node_modules/@goldstack/template-static-website-aws/",\
+        ["npm:0.5.8", {\
+          "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.8-4e6841b95a-455b40f0ca.zip/node_modules/@goldstack/template-static-website-aws/",\
           "packageDependencies": [\
-            ["@goldstack/template-static-website-aws", "npm:0.5.7"],\
+            ["@goldstack/template-static-website-aws", "npm:0.5.8"],\
             ["@goldstack/infra", "npm:0.4.4"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/utils-cli", "npm:0.3.4"],\
@@ -1118,7 +1118,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@goldstack/utils-log", "npm:0.3.4"],\
             ["@goldstack/utils-package", "npm:0.4.4"],\
             ["@goldstack/utils-package-config", "npm:0.4.4"],\
-            ["@goldstack/utils-s3-deployment", "npm:0.5.7"],\
+            ["@goldstack/utils-s3-deployment", "npm:0.5.8"],\
             ["@goldstack/utils-sh", "npm:0.5.4"],\
             ["@goldstack/utils-template", "npm:0.4.4"],\
             ["@goldstack/utils-terraform", "npm:0.4.7"],\
@@ -1263,10 +1263,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@goldstack/utils-s3-deployment", [\
-        ["npm:0.5.7", {\
-          "packageLocation": "./.yarn/cache/@goldstack-utils-s3-deployment-npm-0.5.7-22c93225d5-87c88bc6ad.zip/node_modules/@goldstack/utils-s3-deployment/",\
+        ["npm:0.5.8", {\
+          "packageLocation": "./.yarn/cache/@goldstack-utils-s3-deployment-npm-0.5.8-237c53afee-05e849da77.zip/node_modules/@goldstack/utils-s3-deployment/",\
           "packageDependencies": [\
-            ["@goldstack/utils-s3-deployment", "npm:0.5.7"],\
+            ["@goldstack/utils-s3-deployment", "npm:0.5.8"],\
             ["@goldstack/infra-aws", "npm:0.4.7"],\
             ["@goldstack/utils-aws-cli", "npm:0.4.7"],\
             ["@goldstack/utils-docker", "npm:0.4.4"],\
@@ -12161,7 +12161,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/static-website-1/",\
           "packageDependencies": [\
             ["static-website-1", "workspace:packages/static-website-1"],\
-            ["@goldstack/template-static-website-aws", "npm:0.5.7"],\
+            ["@goldstack/template-static-website-aws", "npm:0.5.8"],\
             ["@types/gulp", "npm:4.0.7"],\
             ["@types/gulp-changed", "npm:0.0.33"],\
             ["@types/gulp-replace", "npm:0.0.31"],\
