@@ -1,12 +1,1 @@
-[
-  {
-    "name": "prod",
-    "terraform": {
-      "website_cdn_root_id": {
-        "sensitive": false,
-        "type": "string",
-        "value": "E35RJ205F3KSKQ"
-      }
-    }
-  }
-]
+[]
