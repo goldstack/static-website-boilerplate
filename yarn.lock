@@ -700,9 +700,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.5.11":
-  version: 0.5.11
-  resolution: "@goldstack/template-static-website-aws@npm:0.5.11"
+"@goldstack/template-static-website-aws@npm:0.5.12":
+  version: 0.5.12
+  resolution: "@goldstack/template-static-website-aws@npm:0.5.12"
   dependencies:
     "@goldstack/infra": 0.4.7
     "@goldstack/infra-aws": 0.4.10
@@ -715,14 +715,14 @@ __metadata:
     "@goldstack/utils-s3-deployment": 0.5.11
     "@goldstack/utils-sh": 0.5.7
     "@goldstack/utils-template": 0.4.7
-    "@goldstack/utils-terraform": 0.4.10
-    "@goldstack/utils-terraform-aws": 0.4.10
+    "@goldstack/utils-terraform": 0.4.11
+    "@goldstack/utils-terraform-aws": 0.4.11
     source-map-support: ^0.5.21
     yargs: ^17.5.1
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: 4b67154b0b9d333859fc7c5b19d95266de11f4583573db00b585f1d139631bc455ecea8ae63469b5d191675d48489e4aa128aa0cdef04da6ee99a5c85a1ec3b7
+  checksum: 04adc40b27352d0f8080050042a1ab2a50d3d34f7ca7951734b71e4527811c539e65031b7685a1e4599d5276cd02b53bb85cd7c0c1200d8ad362de3a000b1e48
   languageName: node
   linkType: hard
 
@@ -902,24 +902,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.10":
-  version: 0.4.10
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.10"
+"@goldstack/utils-terraform-aws@npm:0.4.11":
+  version: 0.4.11
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.11"
   dependencies:
     "@goldstack/infra-aws": 0.4.10
     "@goldstack/utils-config": 0.4.7
     "@goldstack/utils-log": 0.3.7
     "@goldstack/utils-package": 0.4.7
     "@goldstack/utils-sh": 0.5.7
-    "@goldstack/utils-terraform": 0.4.10
+    "@goldstack/utils-terraform": 0.4.11
     aws-sdk: ^2.1222.0
-  checksum: 94e658fd602685a6578e9389be4ec8b2ff6f876f7d9287991271fa5678468ddca102e4909e94076a086c316a7a46cec9a6a2a807bb0bd8725c42f95a2b011f2b
+  checksum: 6d0a6d54ef850f8e671d9d4349334ae31dc06d1a0037f69535bf2d53c5bc887270039dab05ca89c575afd5b758ce0f6e5fe9445c8aa0de2ae0670f3779fee119
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform@npm:0.4.10":
-  version: 0.4.10
-  resolution: "@goldstack/utils-terraform@npm:0.4.10"
+"@goldstack/utils-terraform@npm:0.4.11":
+  version: 0.4.11
+  resolution: "@goldstack/utils-terraform@npm:0.4.11"
   dependencies:
     "@goldstack/infra": 0.4.7
     "@goldstack/infra-aws": 0.4.10
@@ -929,9 +929,8 @@ __metadata:
     "@goldstack/utils-package": 0.4.7
     "@goldstack/utils-sh": 0.5.7
     json-stable-stringify: ^1.0.1
-    prompt-sync: ^4.2.0
     yargs: ^17.5.1
-  checksum: 04b77239285a315aa0fb7b2b0a70613fd87c2d3f481aaa0e3832c99beb569648f9d9aafd7f88cb585e3beac5087c6684815591ad0bb6d6499eaf03a066a1da69
+  checksum: edddd639b360c1a42508177fe4c993e7dc89058992a7f709791883934b71bc1e74b11b27980e81c1d298ad0f514f020166c0dfcd64e861cad04492a8ecb7e10e
   languageName: node
   linkType: hard
 
@@ -1996,13 +1995,6 @@ __metadata:
   version: 2.1.1
   resolution: "ansi-regex@npm:2.1.1"
   checksum: 190abd03e4ff86794f338a31795d262c1dfe8c91f7e01d04f13f646f1dcb16c5800818f886047876f1272f065570ab86b24b99089f8b68a0e11ff19aed4ca8f1
-  languageName: node
-  linkType: hard
-
-"ansi-regex@npm:^4.1.0":
-  version: 4.1.1
-  resolution: "ansi-regex@npm:4.1.1"
-  checksum: b1a6ee44cb6ecdabaa770b2ed500542714d4395d71c7e5c25baa631f680fb2ad322eb9ba697548d498a6fd366949fc8b5bfcf48d49a32803611f648005b01888
   languageName: node
   linkType: hard
 
@@ -8916,15 +8908,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prompt-sync@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "prompt-sync@npm:4.2.0"
-  dependencies:
-    strip-ansi: ^5.0.0
-  checksum: b14dfb7d2520f384324b49a64c033e92cf2889e34a148037d66b0b89e43f530a93344aebf57c4abe3ae4e351080e22388f7141ea0fbc56b1b9a7f152d5d4a423
-  languageName: node
-  linkType: hard
-
 "prompts@npm:^2.0.1":
   version: 2.3.2
   resolution: "prompts@npm:2.3.2"
@@ -10144,7 +10127,7 @@ resolve@^1.20.0:
   version: 0.0.0-use.local
   resolution: "static-website-1@workspace:packages/static-website-1"
   dependencies:
-    "@goldstack/template-static-website-aws": 0.5.11
+    "@goldstack/template-static-website-aws": 0.5.12
     "@types/gulp": ^4.0.7
     "@types/gulp-changed": ^0.0.33
     "@types/gulp-replace": ^0.0.31
@@ -10337,15 +10320,6 @@ resolve@^1.20.0:
   dependencies:
     ansi-regex: ^2.0.0
   checksum: 9b974de611ce5075c70629c00fa98c46144043db92ae17748fb780f706f7a789e9989fd10597b7c2053ae8d1513fd707816a91f1879b2f71e6ac0b6a863db465
-  languageName: node
-  linkType: hard
-
-"strip-ansi@npm:^5.0.0":
-  version: 5.2.0
-  resolution: "strip-ansi@npm:5.2.0"
-  dependencies:
-    ansi-regex: ^4.1.0
-  checksum: bdb5f76ade97062bd88e7723aa019adbfacdcba42223b19ccb528ffb9fb0b89a5be442c663c4a3fb25268eaa3f6ea19c7c3fbae830bd1562d55adccae1fcec46
   languageName: node
   linkType: hard
 
@@ -11402,9 +11376,9 @@ resolve@^1.20.0:
   linkType: hard
 
 "which-module@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "which-module@npm:2.0.0"
-  checksum: 809f7fd3dfcb2cdbe0180b60d68100c88785084f8f9492b0998c051d7a8efe56784492609d3f09ac161635b78ea29219eb1418a98c15ce87d085bce905705c9c
+  version: 2.0.1
+  resolution: "which-module@npm:2.0.1"
+  checksum: 1967b7ce17a2485544a4fdd9063599f0f773959cca24176dbe8f405e55472d748b7c549cd7920ff6abb8f1ab7db0b0f1b36de1a21c57a8ff741f4f1e792c52be
   languageName: node
   linkType: hard
 
