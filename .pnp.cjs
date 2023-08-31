@@ -1303,7 +1303,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@goldstack/utils-sh", "npm:0.4.7"],\
             ["@goldstack/utils-log", "npm:0.2.4"],\
-            ["archiver", "npm:5.3.1"],\
+            ["archiver", "npm:5.3.2"],\
             ["extract-zip", "npm:2.0.1"],\
             ["ncp", "npm:2.0.0"],\
             ["rimraf", "npm:3.0.2"],\
@@ -2937,6 +2937,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["zip-stream", "npm:4.1.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:5.3.2", {\
+          "packageLocation": "./.yarn/cache/archiver-npm-5.3.2-cd50d62eca-7d3b9b9b51.zip/node_modules/archiver/",\
+          "packageDependencies": [\
+            ["archiver", "npm:5.3.2"],\
+            ["archiver-utils", "npm:2.1.0"],\
+            ["async", "npm:3.2.4"],\
+            ["buffer-crc32", "npm:0.2.13"],\
+            ["readable-stream", "npm:3.6.0"],\
+            ["readdir-glob", "npm:1.1.3"],\
+            ["tar-stream", "npm:2.2.0"],\
+            ["zip-stream", "npm:4.1.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["archiver-utils", [\
@@ -3173,6 +3187,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/async-npm-3.2.3-e9d6b79c88-c4bee57ab2.zip/node_modules/async/",\
           "packageDependencies": [\
             ["async", "npm:3.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:3.2.4", {\
+          "packageLocation": "./.yarn/cache/async-npm-3.2.4-aba13508f9-43d07459a4.zip/node_modules/async/",\
+          "packageDependencies": [\
+            ["async", "npm:3.2.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -10816,6 +10837,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/readdir-glob-npm-1.0.0-ff4217e184-589b4aaea9.zip/node_modules/readdir-glob/",\
           "packageDependencies": [\
             ["readdir-glob", "npm:1.0.0"],\
+            ["minimatch", "npm:5.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.1.3", {\
+          "packageLocation": "./.yarn/cache/readdir-glob-npm-1.1.3-ad1a82fc20-1dc0f7440f.zip/node_modules/readdir-glob/",\
+          "packageDependencies": [\
+            ["readdir-glob", "npm:1.1.3"],\
             ["minimatch", "npm:5.1.0"]\
           ],\
           "linkType": "HARD"\
