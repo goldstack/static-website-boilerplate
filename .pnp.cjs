@@ -2515,10 +2515,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-static-website-aws", [\
-      ["npm:0.5.31", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.31-f5742b4feb-8665e7b1ee.zip/node_modules/@goldstack/template-static-website-aws/",\
+      ["npm:0.5.32", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.32-aff3c780aa-de07562f1a.zip/node_modules/@goldstack/template-static-website-aws/",\
         "packageDependencies": [\
-          ["@goldstack/template-static-website-aws", "npm:0.5.31"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.32"],\
           ["@goldstack/infra", "npm:0.4.13"],\
           ["@goldstack/infra-aws", "npm:0.4.22"],\
           ["@goldstack/utils-cli", "npm:0.3.10"],\
@@ -2530,8 +2530,8 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-s3-deployment", "npm:0.5.24"],\
           ["@goldstack/utils-sh", "npm:0.5.12"],\
           ["@goldstack/utils-template", "npm:0.4.13"],\
-          ["@goldstack/utils-terraform", "npm:0.4.27"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.30"],\
+          ["@goldstack/utils-terraform", "npm:0.4.28"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.31"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -2729,10 +2729,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.27", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.27-1fcae784b3-105a293bd4.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.28", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.28-1e8708ccc0-36a2c68eee.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform", "npm:0.4.27"],\
+          ["@goldstack/utils-terraform", "npm:0.4.28"],\
           ["@goldstack/infra", "npm:0.4.13"],\
           ["@goldstack/infra-aws", "npm:0.4.22"],\
           ["@goldstack/utils-config", "npm:0.4.13"],\
@@ -2747,10 +2747,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.30", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.30-ccaf1dbd93-1da6903891.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.31", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.31-72b243ff3d-f0e1dbea84.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.30"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.31"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
           ["@aws-sdk/client-s3", "npm:3.620.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
@@ -2760,7 +2760,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-log", "npm:0.3.12"],\
           ["@goldstack/utils-package", "npm:0.4.13"],\
           ["@goldstack/utils-sh", "npm:0.5.12"],\
-          ["@goldstack/utils-terraform", "npm:0.4.27"]\
+          ["@goldstack/utils-terraform", "npm:0.4.28"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -14266,7 +14266,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/static-website-1/",\
         "packageDependencies": [\
           ["static-website-1", "workspace:packages/static-website-1"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.31"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.32"],\
           ["@swc/core", "virtual:eab1456da9871d174d39946165cd068a541f495e0f3e144f7a7522f518bed472544fb0e2e6489da36fcf17804b6e2087014d18fd28e4dc82f2381c590043969e#npm:1.3.74"],\
           ["@swc/jest", "virtual:eab1456da9871d174d39946165cd068a541f495e0f3e144f7a7522f518bed472544fb0e2e6489da36fcf17804b6e2087014d18fd28e4dc82f2381c590043969e#npm:0.2.27"],\
           ["@types/gulp", "npm:4.0.7"],\
