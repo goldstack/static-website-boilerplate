@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@goldstack/nodemonx", "npm:0.4.21"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:06e2c52c077a19e384b21489fa8e24f6244e3361297562bad15f14b4ae028809bf5ca1c958c96a741d24476b2cbb572b848cdec217412d193c33e94a0c5125ec#npm:5.42.1"],\
@@ -3289,10 +3289,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-typescript-references", [\
-      ["npm:0.3.12", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.12-e4fc97f991-e81a7fc2f2.zip/node_modules/@goldstack/utils-typescript-references/",\
+      ["npm:0.3.13", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.13-490b1e9794-74dfa118db.zip/node_modules/@goldstack/utils-typescript-references/",\
         "packageDependencies": [\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
+          ["@goldstack/utils-log", "npm:0.3.18"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -13986,7 +13987,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["project-static-website1", "workspace:."],\
           ["@goldstack/nodemonx", "npm:0.4.21"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:06e2c52c077a19e384b21489fa8e24f6244e3361297562bad15f14b4ae028809bf5ca1c958c96a741d24476b2cbb572b848cdec217412d193c33e94a0c5125ec#npm:5.42.1"],\
