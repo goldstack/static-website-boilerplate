@@ -3037,10 +3037,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-static-website-aws", [\
-      ["npm:0.5.48", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.48-893460953a-b7b30d5c38.zip/node_modules/@goldstack/template-static-website-aws/",\
+      ["npm:0.5.49", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.49-86b8c6b53a-12a7dd20c7.zip/node_modules/@goldstack/template-static-website-aws/",\
         "packageDependencies": [\
-          ["@goldstack/template-static-website-aws", "npm:0.5.48"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.49"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.33"],\
           ["@goldstack/utils-cli", "npm:0.3.16"],\
@@ -3052,8 +3052,8 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-s3-deployment", "npm:0.5.37"],\
           ["@goldstack/utils-sh", "npm:0.5.21"],\
           ["@goldstack/utils-template", "npm:0.4.22"],\
-          ["@goldstack/utils-terraform", "npm:0.4.43"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.46"],\
+          ["@goldstack/utils-terraform", "npm:0.4.44"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.47"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -3252,10 +3252,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.43", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.43-0e445e7d07-224fe5e4b1.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.44", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.44-a03fda17ed-f42e503d7c.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform", "npm:0.4.43"],\
+          ["@goldstack/utils-terraform", "npm:0.4.44"],\
           ["@goldstack/infra", "npm:0.4.22"],\
           ["@goldstack/infra-aws", "npm:0.4.33"],\
           ["@goldstack/utils-config", "npm:0.4.22"],\
@@ -3270,10 +3270,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.46", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.46-70daaf80ee-e45aee0394.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.47", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.47-b6e4e20058-928509ac33.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.46"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.47"],\
           ["@aws-sdk/client-dynamodb", "npm:3.645.0"],\
           ["@aws-sdk/client-s3", "npm:3.620.0"],\
           ["@aws-sdk/types", "npm:3.609.0"],\
@@ -3283,7 +3283,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-log", "npm:0.3.18"],\
           ["@goldstack/utils-package", "npm:0.4.22"],\
           ["@goldstack/utils-sh", "npm:0.5.21"],\
-          ["@goldstack/utils-terraform", "npm:0.4.43"]\
+          ["@goldstack/utils-terraform", "npm:0.4.44"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -15428,7 +15428,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/static-website-1/",\
         "packageDependencies": [\
           ["static-website-1", "workspace:packages/static-website-1"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.48"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.49"],\
           ["@swc/core", "virtual:eab1456da9871d174d39946165cd068a541f495e0f3e144f7a7522f518bed472544fb0e2e6489da36fcf17804b6e2087014d18fd28e4dc82f2381c590043969e#npm:1.10.1"],\
           ["@swc/jest", "virtual:eab1456da9871d174d39946165cd068a541f495e0f3e144f7a7522f518bed472544fb0e2e6489da36fcf17804b6e2087014d18fd28e4dc82f2381c590043969e#npm:0.2.37"],\
           ["@types/gulp", "npm:4.0.17"],\
