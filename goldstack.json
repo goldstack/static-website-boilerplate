@@ -1,8 +1,8 @@
 {
   "$schema": "./schemas/package.schema.json",
+  "name": "project-static-website1",
   "configuration": {},
   "deployments": [],
-  "name": "project-static-website1",
   "template": "yarn-pnp-monorepo",
   "templateVersion": "0.1.0"
 }
