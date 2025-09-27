@@ -11,11 +11,11 @@
       "awsRegion": "us-west-2",
       "configuration": {
         "hostedZoneDomain": "dev.goldstack.party",
-        "websiteDomain": "staticwebsite1-1754886130071.tests.dev.goldstack.party",
-        "websiteDomainRedirect": "www.staticwebsite1-1754886130071.tests.dev.goldstack.party",
+        "websiteDomain": "staticwebsite1-1758939804045.tests.dev.goldstack.party",
+        "websiteDomainRedirect": "www.staticwebsite1-1758939804045.tests.dev.goldstack.party",
         "defaultCacheDuration": 10
       },
-      "tfStateKey": "static-website-1-prod-87f0fc1d2ffb9a961be6.tfstate"
+      "tfStateKey": "static-website-1-prod-46ec6be4729b0ce3afee.tfstate"
     }
   ]
 }
