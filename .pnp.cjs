@@ -3145,12 +3145,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-static-website-aws", [\
-      ["npm:0.5.71", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.71-16c53b3083-153fc8a3c7.zip/node_modules/@goldstack/template-static-website-aws/",\
+      ["npm:0.5.72", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-static-website-aws-npm-0.5.72-b3d2a3b977-66445c6aa5.zip/node_modules/@goldstack/template-static-website-aws/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.34"],\
           ["@goldstack/infra-aws", "npm:0.4.52"],\
-          ["@goldstack/template-static-website-aws", "npm:0.5.71"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.72"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
           ["@goldstack/utils-config", "npm:0.4.34"],\
           ["@goldstack/utils-docs-cli", "npm:0.3.11"],\
@@ -14094,7 +14094,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/static-website-1", {\
         "packageLocation": "./packages/static-website-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-static-website-aws", "npm:0.5.71"],\
+          ["@goldstack/template-static-website-aws", "npm:0.5.72"],\
           ["@swc/core", "virtual:eab1456da9871d174d39946165cd068a541f495e0f3e144f7a7522f518bed472544fb0e2e6489da36fcf17804b6e2087014d18fd28e4dc82f2381c590043969e#npm:1.15.8"],\
           ["@swc/jest", "virtual:eab1456da9871d174d39946165cd068a541f495e0f3e144f7a7522f518bed472544fb0e2e6489da36fcf17804b6e2087014d18fd28e4dc82f2381c590043969e#npm:0.2.39"],\
           ["@types/gulp", "npm:4.0.17"],\
