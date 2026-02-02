@@ -2527,9 +2527,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.5.79":
-  version: 0.5.79
-  resolution: "@goldstack/template-static-website-aws@npm:0.5.79"
+"@goldstack/template-static-website-aws@npm:0.5.80":
+  version: 0.5.80
+  resolution: "@goldstack/template-static-website-aws@npm:0.5.80"
   dependencies:
     "@goldstack/infra": "npm:0.4.39"
     "@goldstack/infra-aws": "npm:0.4.57"
@@ -2542,13 +2542,13 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.38"
     "@goldstack/utils-template": "npm:0.4.40"
     "@goldstack/utils-terraform": "npm:0.4.71"
-    "@goldstack/utils-terraform-aws": "npm:0.4.74"
+    "@goldstack/utils-terraform-aws": "npm:0.4.75"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17"
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: 10/e668dd1d0060fc14c82debc99dff425950dd9b7dc5452c7a536422018db11dde8452ed0fb25b1d0cc78cb54346ce7a18c49a3fe1c93726369e6f82e00a65a36b
+  checksum: 10/97f14fc44dd8b96764be0e3d3de7540fde42c6d2904a0be292a5841df1dbc3864df9ce93f26c285e658c18562c7b7843361e1af07afa960e80102f3bfa021de2
   languageName: node
   linkType: hard
 
@@ -2668,9 +2668,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.74":
-  version: 0.4.74
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.74"
+"@goldstack/utils-terraform-aws@npm:0.4.75":
+  version: 0.4.75
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.75"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.958.0"
     "@aws-sdk/client-s3": "npm:^3.958.0"
@@ -2682,7 +2682,7 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.41"
     "@goldstack/utils-sh": "npm:0.5.38"
     "@goldstack/utils-terraform": "npm:0.4.71"
-  checksum: 10/54932dc9680d37afcb2470212d3806fc79e6e050cd49f33e3bca210bbac49706e810f5fc8e4bb5400f05093ea03511419836eb61b1f97854924dae9eac335f69
+  checksum: 10/429d380224d066ca9db790ef3af34f8a0f6c916e390307fa5b2f0f88f82498aa0bbc11af23db7b2e2e16e8f06187d1f7d85763e15ebb831d7d75886089bad153
   languageName: node
   linkType: hard
 
@@ -10643,7 +10643,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "static-website-1@workspace:packages/static-website-1"
   dependencies:
-    "@goldstack/template-static-website-aws": "npm:0.5.79"
+    "@goldstack/template-static-website-aws": "npm:0.5.80"
     "@swc/core": "npm:^1.15.8"
     "@swc/jest": "npm:^0.2.39"
     "@types/gulp": "npm:^4.0.17"
