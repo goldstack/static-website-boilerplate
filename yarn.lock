@@ -1716,12 +1716,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.5.92":
-  version: 0.5.92
-  resolution: "@goldstack/template-static-website-aws@npm:0.5.92"
+"@goldstack/template-static-website-aws@npm:0.5.93":
+  version: 0.5.93
+  resolution: "@goldstack/template-static-website-aws@npm:0.5.93"
   dependencies:
     "@goldstack/infra": "npm:0.4.41"
     "@goldstack/infra-aws": "npm:0.4.65"
+    "@goldstack/utils-aws-cli": "npm:0.4.66"
     "@goldstack/utils-cli": "npm:0.3.32"
     "@goldstack/utils-config": "npm:0.4.41"
     "@goldstack/utils-log": "npm:0.3.34"
@@ -1737,7 +1738,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: 10/8734ee2251da1bb637db6c3365d7cbb67f42c4a227fa78e83f04190b642d3014af361c445b085e1a9b5554127ca358e380076e8694703d5334ab913c698755c7
+  checksum: 10/6f9190f3005cd5449e24e73e2299ac71c1133f6e05e02084a6b5d9bb6a18ba639825b8b3343626361f2bc630e7d1cceda420778d994a987b36a65dca625fb148
   languageName: node
   linkType: hard
 
@@ -9019,7 +9020,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "static-website-1@workspace:packages/static-website-1"
   dependencies:
-    "@goldstack/template-static-website-aws": "npm:0.5.92"
+    "@goldstack/template-static-website-aws": "npm:0.5.93"
     "@swc/core": "npm:^1.15.8"
     "@swc/jest": "npm:^0.2.39"
     "@types/gulp": "npm:^4.0.17"
