@@ -1611,19 +1611,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-static-website-aws@npm:0.5.99":
-  version: 0.5.99
-  resolution: "@goldstack/template-static-website-aws@npm:0.5.99"
+"@goldstack/template-static-website-aws@npm:0.5.100":
+  version: 0.5.100
+  resolution: "@goldstack/template-static-website-aws@npm:0.5.100"
   dependencies:
     "@goldstack/infra": "npm:0.4.42"
     "@goldstack/infra-aws": "npm:0.4.68"
-    "@goldstack/utils-aws-cli": "npm:0.4.69"
+    "@goldstack/utils-aws-cli": "npm:0.4.70"
     "@goldstack/utils-cli": "npm:0.3.33"
     "@goldstack/utils-config": "npm:0.4.42"
     "@goldstack/utils-log": "npm:0.3.35"
     "@goldstack/utils-package": "npm:0.4.44"
     "@goldstack/utils-package-config": "npm:0.4.44"
-    "@goldstack/utils-s3-deployment": "npm:0.5.72"
+    "@goldstack/utils-s3-deployment": "npm:0.5.73"
     "@goldstack/utils-sh": "npm:0.5.40"
     "@goldstack/utils-template": "npm:0.4.43"
     "@goldstack/utils-terraform": "npm:0.4.88"
@@ -1633,20 +1633,20 @@ __metadata:
   bin:
     template: ./bin/template
     template-static-website-aws: ./bin/template
-  checksum: 10/be2fd8e07d57a4d66614ba492470add5e04b3c91bb61ad98bb74e403ae245cdd1d043f9ffb1b45b4e8767c26e3019cc206906f8ea7eb8455309a1c89811ee769
+  checksum: 10/a00bac754ce95df43cbef5a8e3c76dcf7a4db488bc5a23dc7f2121cfd14878ba3b7d666590219663cad7111b89fb818ec7f081659dd7eab6c2c04d6bf2c38449
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-cli@npm:0.4.69":
-  version: 0.4.69
-  resolution: "@goldstack/utils-aws-cli@npm:0.4.69"
+"@goldstack/utils-aws-cli@npm:0.4.70":
+  version: 0.4.70
+  resolution: "@goldstack/utils-aws-cli@npm:0.4.70"
   dependencies:
     "@aws-sdk/types": "npm:^3.973.5"
     "@goldstack/infra-aws": "npm:0.4.68"
     "@goldstack/utils-docker": "npm:0.4.42"
     "@goldstack/utils-log": "npm:0.3.35"
     "@goldstack/utils-sh": "npm:0.5.40"
-  checksum: 10/7c70013575d468f287d139c684ca964e09b3c35b6d1b629393101c18e72bee82faf0a0fe6997054769e9354549c09dcdb740db87fdca84cc9a326fd484478d36
+  checksum: 10/58f2f47effcfd4ef44c85faf31c39147c6029bc7f2f9bec1f37245fe77272bdff12f0e0c6aea4d274f4b1dce6cd79b8395245b558bf1dece28e7c8e34af859c7
   languageName: node
   linkType: hard
 
@@ -1715,16 +1715,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-s3-deployment@npm:0.5.72":
-  version: 0.5.72
-  resolution: "@goldstack/utils-s3-deployment@npm:0.5.72"
+"@goldstack/utils-s3-deployment@npm:0.5.73":
+  version: 0.5.73
+  resolution: "@goldstack/utils-s3-deployment@npm:0.5.73"
   dependencies:
     "@goldstack/infra-aws": "npm:0.4.68"
-    "@goldstack/utils-aws-cli": "npm:0.4.69"
+    "@goldstack/utils-aws-cli": "npm:0.4.70"
     "@goldstack/utils-cli": "npm:0.3.33"
     "@goldstack/utils-docker": "npm:0.4.42"
     "@goldstack/utils-sh": "npm:0.5.40"
-  checksum: 10/ed31c47fbe8e0f70f35d95dd045e1f65cd270a4ba1b1e670f5cff076b77cfb4285726ab2054392efe6cb3ac12fb600fe4f5e4e27440eaaa7fcc4d42b8eb808df
+  checksum: 10/93df34a917ceeb66330d2635cdce0125dcd63d52612acc0652fa6068b03ae313f387dd03e9b10476ac41ee56cc2f1af4ec1a70e275b159456176fa068e4b351e
   languageName: node
   linkType: hard
 
@@ -9015,7 +9015,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "static-website-1@workspace:packages/static-website-1"
   dependencies:
-    "@goldstack/template-static-website-aws": "npm:0.5.99"
+    "@goldstack/template-static-website-aws": "npm:0.5.100"
     "@swc/core": "npm:^1.15.8"
     "@swc/jest": "npm:^0.2.39"
     "@types/gulp": "npm:^4.0.17"
